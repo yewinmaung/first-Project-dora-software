@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+    body{
+        scroll-behavior: smooth;
+         height: 500vh;
+
+     }
+
+
+
+
+.nav-control{
+    position: absolute;
+    top: 0;
+    z-index: 50;
+    background-color: #ffffff;
+}
+.nav-control-scroll{
+
+    position: fixed;
+}
+
+
+.nav-link:hover{
+    box-shadow:0 1px 0 #8b541350  !important;
+    transform: scale(0.98);
+
+   font-weight: bold;
+    background-color: #ffffff;
+
+}
+.nav-link.nav-section{
+    border: 1px solid blue;
+    border-radius: 10em;
+    padding: 0.5rem 1.3rem !important;
+}
+.current-section{
+    border-bottom: 4px solid blue;
+
+}
+
+.form-form{
+
+}
+.form-link{
+
+}
+.form-link:hover{
+    box-shadow:0 1px 0 #8b541350  !important;
+    transform: scale(0.98);
+    font-weight: bold;
+    background-color: #ffffff;
+    padding: 1px 2%;
+    text-decoration: none;
+}
+.form-btn{
+    width: 33%;
+    height: 75%;
+    background-color: #4C56C0;
+    font-weight: bold;
+    color: white;
+    border-radius: 10%;
+    padding: 8px;
+
+}
+.form-btn:hover{
+    color: white;
+    text-decoration: none;
+    transform: scale(0.98);
+    box-shadow:0 1px 0 #8b541350  !important;
+    padding: 2% 2%;
+}
+
+
+.girl{
+    background-image: url("../img/about1-g.svg");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    position: relative;
+}
+
+.pricing .girl{
+    background-color: #FCC242;
+    color: white;
+}
+.girl-list{
+    margin-bottom: 20%;
+}
+.boy{
+    background-image: url("../img/about2-b.svg");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    position: relative;
+}
+.pricing .boy{
+    background-color: #4C56C0;
+    color: white;
+}
+.pricing1-btn{
+    width: 74%;
+    height: 13%;
+    border-radius: 5%;
+    padding: 10px 10px;
+    background-color: #4C56C0;
+    color: white;
+}
+.pricing1-btn:hover{
+    color: white;
+    text-decoration: none;
+    transform: scale(0.98);
+    box-shadow:0 1px 0 #8b541350  !important;
+
+}
+.pricing2-btn{
+    width: 74%;
+    height: 13%;
+     border-radius: 5%;
+    padding: 10px 10px;
+    background-color: #e0a800;
+}
+.pricing2-btn:hover{
+    color: white;
+    text-decoration: none;
+    transform: scale(0.98);
+    box-shadow:0 1px 0 #8b541350  !important;
+}
+.integra{
+    background-image: url("../img/software.svg");
+    background-size: 30%;
+    background-repeat: no-repeat;
+   background-position: bottom right;
+    position: relative;
+}
+.retails{
+    background-image: url("../img/software.svg");
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.retailcard{
+    height: 81%;
+    width: 40%!important;
+    margin-top: 20%;
+    background-color: #4C56C0;
+}
+.retailcard-btn{
+    width: 41%;
+    height: 7%;
+    border-radius: 15%;
+    padding: 10px 10px;
+    background-color: #FCC242;
+    margin-top: 34px;
+    color: white;
+
+}
+.retailcard-btn:hover{
+    color: white;
+
+    transform: scale(0.98);
+    box-shadow:0 1px 0 #8b541350  !important;
+}
+.software-intall{
+
+}
+.software-intall:hover{
+    transform: scale(0.98);
+    box-shadow:0 1px 0 #ffffff  !important;
+
+}
+
+.font-card{
+    font-size: 1.5rem;
+}
+.profile{
+    height: 100%;
+}
+.profile-media{
+width: 100%;
+    padding: 0;
+    margin: 0;
+
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+}
+.pf-media:hover{
+   color: blue!important;
+}
+.profile:hover{
+    background-color: #ffffff50;
+
+}
+.profile:hover .profile-media{
+
+    background-color: #f1f1f150;
+
+}
+.contant{
+    background-image: url("../img/path.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+.profile-card{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+       margin-bottom: -47px;
+}
+.profile-card:focus{
+    outline: none;
+}
+.slick-dots li{
+    width: 10px !important;
+    height: 10px !important;
+    background-color: transparent;
+    border: 2px solid #ffffff50;
+    border-radius: 50%;
+
+}
+.slick-dots li.slick-active{
+    width: 15px !important;
+    height: 15px !important;
+    background-color: #ffffff !important;
+}
+/*animate delay*/
+.ani-delay-1{
+    animation-delay: 0.5s;
+}
+.ani-delay-2{
+    animation-delay: 1s;
+}
+.ani-delay-3{
+    animation-delay: 1.5s;
+}
+.ani-delay-4{
+    animation-delay: 2s;
+}
+.ani-delay-5{
+    animation-delay: 2.5s;
+}
+.ani-delay-6{
+    animation-delay: 3s;
+}
+.ani-delay-7{
+    animation-delay: 3.5s;
+}
+/*end animate delay*/
+@media screen and (max-width: 780px){
+.integration{
+
+}
+    .integration-img{
+        width: 134%;
+        padding-top: 10px;
+    }
+    .retailcard{
+        height: 87%;
+        width: 96%!important;
+        margin-top: 20%;
+        background-color: #4C56C0;
+    }
+   .rs-img{
+      display: inline-block!important;
+   }
+   .contant{
+       background-size: cover!important;
+   }
+    .profile{
+        height: 142% !important;
+        width: 75% !important;
+    }
+    .nav-link{
+        padding-left: 10px !important;
+    }
+    .current-section{
+        border: 2px solid blue;
+    }
+
+}
